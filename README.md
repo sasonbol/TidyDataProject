@@ -2,11 +2,11 @@ TidyDataProject
 ===============
 ####Here is a description of the commands used in the run_analysis R script to be used on UCI HAR Dataset to get a tidy dataset of means and standard deviations of measured features.
 #tidydf dataset 
-###This dataset was obtained by tidying up the mean and standard deviavtion variables in the UCI HAR Dataset
+####This dataset was obtained by tidying up the mean and standard deviavtion variables in the UCI HAR Dataset
 
-###This file shows the steps followed to tidy up the UCI HAR dataset, which are as follows:
+####This file shows the steps followed to tidy up the UCI HAR dataset, which are as follows:
 
-#####The working directory was set the the directory at which UCI HAR Dataset directory was saved
+######The working directory was set the the directory at which UCI HAR Dataset directory was saved
 
 * The first part of the script Merges the training and the test sets to create one data set:
 
@@ -37,6 +37,7 @@ TidyDataProject
 2. The numbers which were used to indicate to certain activities in the activity variable were converted into their corresponding activity
 
 *  In the forth part of the script, intstead of fixing the column names(variable names), I changed them in a way to be more discriptive as discussed in the code book
+
 1. A vector (m.s.names) wih the new variable names was created
 2. Using the colnames() function, the names of the variables in the mean.SD.df dataset were changed into the names in the m.s.names vector
 
